@@ -74,8 +74,8 @@ select * from trips limit 10;
 
 -- Accountadmin を使用して、今回作成した全てのオブジェクトを削除
 
-use role accountadmin;
+-- use role accountadmin;
 
-drop database if exists citibike;
-ALTER ACCOUNT SET USE_CACHED_RESULT = false;
-ALTER ACCOUNT SET USE_CACHED_RESULT = true;
+-- drop database if exists citibike;
+-- ALTER ACCOUNT SET USE_CACHED_RESULT = false;
+-- ALTER ACCOUNT SET USE_CACHED_RESULT = true;
